@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maison d’Or — Moda Clásica</title>
+  <meta name="description" content="Maison d’Or, moda clásica y elegante inspirada en el estilo old money." />
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="#top" class="logo"><strong>Maison d’Or</strong></a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#coleccion">Colección</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#email">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <h1>Colección Old Money 2025</h1>
+      <p>Elegancia discreta, materiales nobles y un estilo atemporal para quienes valoran lo clásico.</p>
+      <a href="#modal1" class="btn">Ver detalle</a>
+    </section>
+
+    <section id="coleccion" class="cards">
+      <article class="card">
+        <div class="card__media">
+          <img class="card__img" src="images/image1.jpg" alt="Look masculino con polo beige y pantalón marrón oscuro" loading="lazy">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Conjunto Polo Beige</h3>
+          <p class="card__desc">Combinación clásica con polo en tonos cálidos y pantalón de corte recto, inspirado en la sastrería italiana.</p>
+          <a class="btn" href="#email">Consultar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img class="card__img" src="images/image2.jpg" alt="Look masculino con polo beige claro y pantalón negro" loading="lazy">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Minimalismo Beige</h3>
+          <p class="card__desc">Diseño sobrio con polo claro y pantalón negro de líneas rectas, ideal para ocasiones semi-formales.</p>
+          <a class="btn" href="#tel">Llamar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img class="card__img" src="images/image3.jpg" alt="Look masculino con polo negro y pantalón marrón" loading="lazy">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Elegancia en Negro</h3>
+          <p class="card__desc">Un clásico moderno: polo negro con pantalón marrón de corte perfecto. Inspiración old money para el día y la noche.</p>
+          <a class="btn" href="#faq">Ver FAQ</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="faq" class="faq">
+      <h2>Preguntas frecuentes</h2>
+      <details>
+        <summary>¿Cómo cuido las prendas?</summary>
+        <p>Se recomienda limpieza en seco y conservar en perchas de madera para mantener la forma original.</p>
+      </details>
+      <details>
+        <summary>¿Hacen envíos internacionales?</summary>
+        <p>No. Por el momento, solo envíos a todo el país.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Maison d’Or — <a href="#top">Volver arriba</a>
+  </footer>
+
+  <div id="modal1" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal__dialog">
+      <h2 id="modalTitle">Detalle de la Colección</h2>
+      <p>Cada look de Maison d’Or representa un homenaje a la elegancia clásica: cortes limpios, fibras naturales y un estilo que nunca pasa de moda.</p>
+      <div class="modal__footer">
+        <a href="#top" class="modal__close">Cerrar</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
